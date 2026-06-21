@@ -1,0 +1,161 @@
+:root{
+	--automat: auto;
+	--wycentrowanie: center;
+	--styl: italic;
+	--kursor: pointer;
+	--obramowanie: 2px solid #3D2B1F;
+	--margines: 10px;
+}
+
+body{
+	background-color: #E1D9AC;
+}
+
+#kontener{
+	width: 1200px;
+	margin: var(--automat);
+}
+
+#naglowek{
+	text-align: var(--wycentrowanie);
+	font-size: 38px;
+	font-family: arial;
+	font-style: var(--styl);
+	margin-top: 30px;
+}
+
+#zacznij{
+	text-align: var(--wycentrowanie);
+	font-size: 32px;
+	width: 250px;
+	margin: 15px auto auto auto;
+	background-color: #DA7C20;
+	border: 2px solid black;
+	border-radius: 9px;
+	padding: 6px;
+	cursor: var(--kursor);
+	transition: transform .2s ease-in-out .1s, color .2s ease-in-out .1s;
+}
+
+#zacznij:hover{
+	transform: scale(1.02);
+	color: #3D2B1F;
+}
+
+#pole_z_gra{
+	width: 1100px;
+	margin: 30px auto auto auto;
+	padding: 15px;
+	background-color: #FFC125;
+	border: var(--obramowanie);
+	border-radius: 8px;
+	display: none;
+}
+
+#runda{
+	text-align: var(--wycentrowanie);
+	font-size: 26px;
+	margin: var(--automat);
+	padding: 5px;
+	width: 120px;
+	background-color: #FC0300;
+	border: var(--obramowanie);
+}
+
+#przeciwnicy{
+	width: 300px;
+	margin: var(--automat);
+	padding: var(--margines);
+	text-align: var(--wycentrowanie);
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+#przeciwnik1, #przeciwnik2{
+	font-size: 20px;
+	font-style: var(--styl);
+}
+
+#vs{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.tekst{
+	font-size: 14px;
+	vertical-align: middle;
+}
+
+img[src="./obrazki_do_trzech/gra0.webp"]{
+	width: 350px;
+	margin: 30px auto auto 50px;
+}
+
+img[src="./obrazki_do_trzech/gra1.webp"]{
+	width: 400px;
+	margin: 30px auto auto 40px;
+}
+
+img[src="./obrazki_do_trzech/gra2.webp"]{
+	width: 400px;
+	margin: 60px auto auto 60px;
+}
+
+#gracz, #komputer{
+	width: 500px;
+	height: 400px;
+	margin: 10px auto auto auto;
+	border: var(--obramowanie);
+	border-radius: 16px;
+	background-image: url("../obrazki_do_trzech/tapeta_gry.webp");
+}
+
+#gracz, #wygrana1, #rundy_gracza{
+	float: left;
+}
+
+#komputer, #wygrana2, #rundy_komputera{
+	float: right;
+}
+
+#wygrana1, #wygrana2{
+	width: 325px;
+	margin: 15px 10px 2px 35px;
+	text-align: var(--wycentrowanie);
+	background-color: green;
+	font-size: 23px;
+	padding: var(--margines);
+	border-radius: 25px;
+	display: none;
+}
+
+#wyczysc{
+	clear: both;
+}
+
+#rundy_gracza, #rundy_komputera{
+	width: 500px;
+	padding: 10px 5px 5px 5px;
+	font-size: 22px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: space-evenly;
+}
+
+.wyglad{
+	width: 150px;
+	padding: var(--margines);
+	margin: 10px auto auto 12px;
+	font-size: 18px;
+	border-radius: 4px;
+	cursor: var(--kursor);
+	background-color: #FFFDD0;
+}
+
+#stopka{
+	text-align: var(--wycentrowanie);
+	font-size: 17px;
+	font-style: var(--styl);
+	margin: 20px auto 15px auto;
+	text-shadow: 0.5px 0.5px 1px black;
+}

@@ -1,0 +1,60 @@
+<!doctype html>
+	<html lang="pl">
+		<head>
+			<meta charset="UTF-8"/>
+			<meta name="author" content="Przemysław Szułczyński"/>
+			<meta name="robots" content="index, follow"/>
+			<meta name="description" content="Projekt Do trzech - gra pozwalająca zagrać z komputerem w kamień, papier i nożyce."/>
+
+			<meta property="og:type" content="website"/>
+      		<meta property="og:url" content="https://szulczyk.pl/projekt-6/do-trzech"/>
+      		<meta property="og:title" content="Szulczyk.pl | Projekt 6"/>
+      		<meta property="og:description" content="Gra w Kamień, Papier i Nożyce"/>
+      		<meta property="og:image" content="../favicon-512x512.webp"/>
+
+			<title>Gra w Kamień, Papier i Nożyce</title>
+			<link rel="stylesheet" href="./css_do_trzech/do_trzech.css"/>
+			<link rel="apple-touch-icon" sizes="180x180" href="../favicon-touch-icon.webp"/>
+      		<link rel="icon" type="image/webp" sizes="32x32" href="../favicon-32x32.webp"/>
+      		<link rel="icon" type="image/webp" sizes="16x16" href="../favicon-16x16.webp"/>
+			<link rel="shortcut icon" href="../favicon.ico"/>
+			<script src="./skrypty_do_trzech/jquery.js" defer></script>
+			<script type="text/javascript" src="./skrypty_do_trzech/do_trzech.js" defer></script>
+		</head>
+			<body>
+				<div id="kontener">
+					<div id="naglowek">Kamień, Papier i Nożyce</div>
+					<div id="zacznij">Rozpocznij grę!</div>
+					
+					<div id="pole_z_gra">
+						<div id="runda">Runda - <span id="ktora">0</span></div>
+							
+						<div id="przeciwnicy">
+							<div id="przeciwnik1">Użytkownik<br/><span id="u" class="tekst"></span></div>
+							<div id="vs">Vs.</div>
+							<div id="przeciwnik2">Komputer<br/><span id="k" class="tekst"></span></div>
+						</div>
+							
+						<div id="gracz"></div><div id="komputer"></div>
+
+						<div id="wygrana1"></div><div id="wygrana2"></div>
+						<div id="wyczysc"></div>
+
+						<div id="rundy_gracza">
+							<div>Wygrane rundy: <span id="w1">0</span></div>
+							<div>Remisy: <span class="remis">0</span></div>
+							<div>Przegrane rundy: <span id="p1">0</span></div>
+						</div>
+						<div id="rundy_komputera">
+							<div>Wygrane rundy: <span id="w2">0</span></div>
+							<div>Remisy: <span class="remis">0</span></div>
+							<div>Przegrane rundy: <span id="p2">0</span></div>
+						</div>
+							
+						<div><input class="wyglad" type="button" value="Kamień"/> <input class="wyglad" type="button" value="Papier"/> <input class="wyglad" type="button" value="Nożyce"/></div>
+					</div>
+
+					<div id="stopka">&copy; 2024 Szulczyk - Przemysław Szułczyński</div>
+				</div>
+			</body>
+	</html>
