@@ -1,13 +1,13 @@
 # ***[Projekt Do trzech](https://szulczyk.pl/projekt-6/do-trzech)***
 
 ## 🖼️ ***Zrzuty ekranu***
-![Obrazek 1](.github/ss1.webp)
+![Obrazek 1](dokumentacja/zrzuty-ekranu/ss1.webp)
 
-![Obrazek 2](.github/ss5.webp)
+![Obrazek 2](dokumentacja/zrzuty-ekranu/ss5.webp)
 
-![Obrazek 3](.github/ss6.webp)
+![Obrazek 3](dokumentacja/zrzuty-ekranu/ss6.webp)
 
-![Obrazek 4](.github/ss12.webp)
+![Obrazek 4](dokumentacja/zrzuty-ekranu/ss12.webp)
 
 <br/>
 
